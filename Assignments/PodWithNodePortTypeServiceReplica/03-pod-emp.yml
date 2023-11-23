@@ -1,0 +1,12 @@
+apiVersion: apps/v1 # String
+kind: Pod  # String
+metadata: # Dictionary
+  name: myapp-pod
+  labels: # Dictionary 
+    app: myapp         
+spec:
+  containers: # List
+    - name: myapp
+      image: ashujauhari/emp-arm64:latest
+      ports:
+        - containerPort: 7000

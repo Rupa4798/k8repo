@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: micro-namespace
+  labels:
+    name: micro-namespace
