@@ -1,5 +1,5 @@
 # k8repo
-
+https://www.bogotobogo.com/DevOps/Docker/Docker-Kubernetes-Minikube-install-on-AWS-EC2.php
 # Setup Minikube on AWS Ec2
 ## Setup Docker 
 - yum update -y
