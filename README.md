@@ -23,4 +23,18 @@
 -  yum install  conntrack
 -  minikube start --driver=docker
 -  minikube status
--  Verify :  kubectl get pods 
+-  Verify :  kubectl get pods
+
+# Setup Docker Compose
+
+1.	Copy the appropriate docker-compose binary from GitHub:
+sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+
+2.	NOTE: to get the latest version (thanks @spodnet): 
+sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+3.	Fix permissions after download:
+sudo chmod +x /usr/local/bin/docker-compose
+4.	Verify success:
+Docker-compose --version
+![Uploading image.png…]()
+
